@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    text-align: left;
+    background-color: black;
+
+}
+
+.container {
+    height: 200px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#menulateral {
+    text-align: center;
+    background-color: rgb(247, 32, 32);
+    height: 700px;
+    width: 20%;
+    float: left;
+}
+
+#menu {
+    text-align: left;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 100px;
+}
+
+#menu a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#menuprincipal {
+    background-image: url(imagem.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: 1220px;
+    height: 700px;
+    width: 80%;
+    float: right;
+}
+
+#textprincipal {
+    text-align: center;
+    margin-left: 5px;
+}
+
+#efeito {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0 100px 0;
+
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    clear: both;
+    width: 100%;
+    height: 20%;
+}
+
+textarea {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-radius: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+}
+
+textarea:hover {
+    background-color: rgb(255, 255, 255);
+    color: #111;
+    box-shadow: 5px 5px 5px white;
+}
+
+button {
+    height: 25px;
+    background-color: rgb(0, 3, 6);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    box-shadow: 3px 3px 3px #111;
+    text-align: center;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: #000000;
+    box-shadow: 5px 5px 5px white;
+}
