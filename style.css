@@ -26,10 +26,16 @@ img {
     max-height: 500px;
 }
 
+#iconecss {
+    border-top: 20%;
+    max-width: 350px;
+    max-height: 350px;
+}
+
 #menulateral {
     text-align: center;
     background-color: rgb(247, 32, 32);
-    height: 700px;
+    height: 800px;
     width: 20%;
     float: left;
 }
@@ -54,24 +60,69 @@ img {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    background-size: 1220px;
-    height: 700px;
+    background-size: 1620px;
+    height: 800px;
     width: 80%;
     float: right;
 }
 
 #textprincipal {
     text-align: center;
-    margin-left: 5px;
+    margin-left: 390px;
+    height: 80%;
+    width: 50%;
+    font-size: 30px;
+    border-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#efeito {
+h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.efeito {
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 100px 0 100px 0;
+    padding: 10px 0 10px 0;
+    margin: 120px 0 100px 0;
+}
+
+#redes {
+    clear: both;
+    height: 80px;
+    width: 100%;
+    background-color: black;
 
 }
+
+#menuinformacao1 {
+    clear: both;
+    text-align: center;
+    background-color: rgb(247, 32, 32);
+    height: 700px;
+    width: 20%;
+    float: left;
+}
+
+#menuinformacao2 {
+
+    background-image: url(imagem.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: 1620px;
+    height: 700px;
+    width: 80%;
+    float: right;
+
+}
+
+
 
 footer {
+    clear: both;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -82,6 +133,7 @@ footer {
 }
 
 textarea {
+    text-align: center;
     color: rgb(255, 255, 255);
     background-color: #000000;
     border-radius: 5px 5px 5px #111;
